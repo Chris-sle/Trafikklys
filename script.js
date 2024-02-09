@@ -25,9 +25,9 @@ let yellowLight = document.getElementById('yellowLight')
 
 function turnGreen() {
     
-    redLight.style.backgroundColor= 'red';
+    redLight.style.backgroundColor= '';
     yellowLight.style.backgroundColor= 'yellow';
-    greenLight.style.background= '';
+    greenLight.style.background= 'green';
     setTimeout(() => {
         redLight.style.backgroundColor= '';
         yellowLight.style.backgroundColor='';
